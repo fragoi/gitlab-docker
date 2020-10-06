@@ -11,9 +11,9 @@ services:
       - gitlab_logs:/var/log/gitlab
       - gitlab_data:/var/opt/gitlab
     ports:
-      - 10080:80
-      - 10443:443
-      - 10022:22
+      - '10080:80'
+      - '10443:443'
+      - '10022:22'
 
 volumes:
   gitlab_config:
